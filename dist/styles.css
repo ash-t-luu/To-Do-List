@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #180614 0%, #E4D2D8 48.44%, #A6A5C4 100%);
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto 10px;
+    padding: 50px 0px 50px 0px;
+    border-radius: 10px;
+
+    #username {
+        background-color: #a6a5c45a;
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+
+    #password {
+        background-color: #a6a5c45a;
+        margin-bottom: 10px;
+    }
+
+    #login-btn {
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+
+    #signupLink {
+        text-decoration: none;
+        margin-top: 10px;
+    }
+}
+
+#signUpForm {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto 10px;
+    padding: 50px 0px 50px 0px;
+    border-radius: 10px;
+
+    #username-register {
+        background-color: #a6a5c45a;
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+
+    #password-register {
+        background-color: #a6a5c45a;
+        margin-bottom: 10px;
+    }
+
+    #signup-btn {
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
+
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.todo-container h3 {
+    color: #47585C;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #adb0ab24;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 14px;
+    padding: 10px;
+}
+
+
+#add-task {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #c8d5bb50;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/* #task-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span {
+    position: relative;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    color: #555;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+span:hover {
+    background-color: #edeef0;
+} */
